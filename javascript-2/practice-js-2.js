@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = 'a way to save and share projects'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = 'a hosting service for projects'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -34,6 +36,11 @@
 */
 
 //CODE HERE
+let init = { 
+    description: "creates a new git repository",
+    code: "git init",
+
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +49,10 @@
 */
 
 //CODE HERE
+let clone = {
+    description: "make a copy of a repository",
+    code: "git clone",
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +61,10 @@
 */
 
 //CODE HERE
+let status = {
+    description: 'a way to check to see what was added or what stage in the process you are at',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +73,11 @@
 */
 
 //CODE HERE
+let add = { 
+    description: 'add changes to repository, though they are not saved till you commit',
+    code: 'git add',
+
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +86,10 @@
 */
 
 //CODE HERE
+let commit = {
+    description: 'saves the changes you made to repository',
+    code: '$ git commit -m',
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +98,10 @@
 */
 
 //CODE HERE
+let addRemote = {
+    description: 'creates a connection to a remote repository',
+    code : 'git remote add',
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +110,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: 'save and upload content to a remote repository',
+    code : 'git push',
+}

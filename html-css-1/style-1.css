@@ -1,0 +1,48 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: inline-block;
+}
+
+.row1{
+height: 100px;
+  background-color: coral;
+  border: solid 1px black;
+
+
+}
+
+nav{
+  display: inline-block;
+  font-size: 20px;
+
+}
+
+.container-one{
+  border: dotted 5px black;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  
+}
+#S{
+  height:170px;
+  width: 150px;
+  float:left;
+}
+
+.container-two{
+  border: dotted 5px black;
+  padding: 10px;
+}
+
+#three{
+  height: 120px;
+  width: 100px;
+  float: right;
+  margin-top: 70px;
+}
