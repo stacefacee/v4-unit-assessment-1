@@ -46,7 +46,7 @@ function addItem(item){
 
 //CODE HERE
 function removeItem(index){
-    groceries.splice(index)
+    groceries.splice(index,1)
     displayData()
 }
 
@@ -64,7 +64,14 @@ function removeItem(index){
 //CODE HERE
 function checkGroceryCount(){
    return groceries.length
-   e
+   if(groceries.length > 5){
+     return 'That looks like a big trip'
+   } if(groceries.length = 1){
+       return '1 item'
+   } if(1 < groceries.length < 5){
+       return groceries.length + 'items'
+   }
+   
 }
 
 //////////////////Check out your code!////////////////////

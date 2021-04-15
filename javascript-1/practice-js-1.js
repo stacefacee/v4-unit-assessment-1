@@ -38,12 +38,12 @@ function sum(num1, num2){
 
 //CODE HERE
 function trueOrFalse(data){
-  //if(data = true){
-  //  return true
- // }
- // else {
- //   return false
-  //}
+  if(data = true){
+  return true
+  }
+  else {
+    return false
+}
 }
 
 //////////////////PROBLEM 6////////////////////
@@ -56,10 +56,12 @@ function trueOrFalse(data){
 
 //CODE HERE
 function oddChecker(num){
-  //if(num % 2 === 0){
-  //return 'the number is even'
-//}else {
-  //return 'the number is odd'
+  if(num % 2 === 0){
+  return 'the number is even'
+}
+else {
+  return 'the number is odd'
+}
 }
 
 //////////////////PROBLEM 7////////////////////
@@ -70,10 +72,12 @@ function oddChecker(num){
 */
 
 //CODE HERE
+
+
 function iLove(name, love){
-  return name + 'loves' + love
+  return name + ' loves ' + love
 }
-iLoveResult = iLove(bryan, skateboarding)
+
 
 
 
@@ -147,17 +151,16 @@ let me = {
 
 // CODE HERE
 function bigOrSmall(arr){
-  let answers = [2, 4, 12, 6]
-  for (let i =0; i < 4; i++){
-    if(answers[i] > 100){
+  let answers = []
+  for (let i =0; i < arr.length; i++){
+    if(arr[i] > 100){
       answers.push('big')
     } else {
       answers.push('small')
     }
-      return answers
-
+      
     }
-
+    return answers
   }
 
 
@@ -172,6 +175,13 @@ function bigOrSmall(arr){
 */
 
 //CODE HERE
+function arrayReverser(arr){
+  let reversed = []
+  for(let i =arr.length-1; i >= 0; i-- ){
+     arr.unshift(i) = reversed
+  }
+    return reversed
+}
 
 
 //////////////////PROBLEM 14////////////////////
@@ -247,11 +257,11 @@ function isItBob(obj, cb){
 */
 
 //CODE HERE
-//funtion giveMeDoubles(arr,cb){
-  //for (i= 0; i < arr.length; i++)
-  //arr.push(i)
-  //cb(arr)
-//}
+function giveMeDoubles(arr,cb){
+  for (i= 0; i < arr.length; i++)
+  arr.push(i)
+  cb(arr)
+}
 
 //////////////////PROBLEM 18////////////////////
 /*
@@ -279,17 +289,18 @@ function isItBob(obj, cb){
 */
 
 //CODE HERE
-function carFactory(make,model,year){
-  let car = { make : 'honda',
-              model: 'accord',
-              year : 2013,
-      //if(car.year > 2018){
-      //car.isNew = true,
-     // } else {
-     //   car.isNew = false
-     // }
-     // return car
 
+function carFactory(make, model, year){
+  let car = { 
+    make: "",
+    model: "",
+    year: val
+  };
+      if(car.year.val > 2018){
+      car.isNew.true
+      } else {
+        car.isNew.false
+      }
+      return car
   }
-
-}
+    
